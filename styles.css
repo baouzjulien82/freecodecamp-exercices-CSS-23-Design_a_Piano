@@ -3,7 +3,7 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  box-sizing: inherit; /* Permet d'appliquer border-box à tous les nouveaux éléments ajoutés (div, p, span ...) sinon comportement par défaut (content-box) */
 }
 
 #piano {
